@@ -1,7 +1,7 @@
-streamlit
-opencv-python-headless
-ultralytics
+streamlit==1.46.1
+opencv-python-headless==4.12.0.88
+ultralytics==8.3.170
 mediapipe==0.10.35
-numpy
+numpy==2.2.6
 torch
 torchvision
