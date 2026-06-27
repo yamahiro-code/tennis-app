@@ -1,6 +1,11 @@
 import streamlit as st
 from tennis_analysis import process_video
 import tempfile
+import mediapipe as mp
+
+st.write("MP FILE:", mp.__file__)
+st.write("HAS SOLUTIONS:", hasattr(mp, "solutions"))
+st.write("DIR:", dir(mp))
 
 st.set_page_config(layout="wide")
 
