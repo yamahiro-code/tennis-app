@@ -1,5 +1,5 @@
 import streamlit as st
-from tennis_analysis import process_video
+#from tennis_analysis import process_video
 import tempfile
 import mediapipe as mp
 
@@ -31,7 +31,7 @@ if uploaded_file is not None:
 
         frame_placeholder = st.empty()
 
-        process_video(
+        #process_video(
             temp_file.name,
             frame_placeholder
         )
