@@ -3,9 +3,12 @@ from ultralytics import YOLO
 import mediapipe as mp
 import numpy as np
 
-print("MP MODULE =", mp)
+print("===== DEBUG =====")
+print("MP =", mp)
 print("MP FILE =", mp.__file__)
-print("MP DIR =", dir(mp))
+print("HAS SOLUTIONS =", hasattr(mp, "solutions"))
+print("DIR =", dir(mp))
+print("=================")
 
 # ===============================
 # body axis
