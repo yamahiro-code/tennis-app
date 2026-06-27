@@ -3,6 +3,9 @@ from ultralytics import YOLO
 import mediapipe as mp
 import numpy as np
 
+print("MP MODULE =", mp)
+print("MP FILE =", mp.__file__)
+print("MP DIR =", dir(mp))
 
 # ===============================
 # body axis
